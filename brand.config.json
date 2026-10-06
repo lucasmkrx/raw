@@ -1,0 +1,14 @@
+{
+  "name": "RAW Technologies",
+  "source": "raw.svg",
+  "colors": {
+    "green": "#40da66",
+    "black": "#000000",
+    "white": "#ffffff"
+  },
+  "sourceViewBox": [0, 0, 372.739, 120],
+  "logoWidth": 2048,
+  "avatarSize": 1024,
+  "avatarLogoWidth": 0.76,
+  "faviconLogoWidth": 0.9
+}

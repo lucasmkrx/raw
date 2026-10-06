@@ -1,0 +1,25 @@
+name: Asset request
+description: Request an export size, format, or layout.
+title: "Asset request: "
+body:
+  - type: textarea
+    id: use
+    attributes:
+      label: Intended use
+      description: Describe the public-safe use case and destination.
+    validations:
+      required: true
+  - type: textarea
+    id: export
+    attributes:
+      label: Export requirements
+      description: Include dimensions, file format, background, and logo variant.
+    validations:
+      required: true
+  - type: checkboxes
+    id: public
+    attributes:
+      label: Public information
+      options:
+        - label: This request contains no credentials or confidential information.
+          required: true

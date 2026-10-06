@@ -1,0 +1,43 @@
+name: Verify brand assets
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verify-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Asset validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Install locked dependencies
+        run: npm ci --ignore-scripts
+      - name: Verify published assets
+        run: npm run verify
+      - name: Build and verify in an isolated directory
+        shell: bash
+        run: |
+          build_dir=$(mktemp -d)
+          trap 'rm -rf "$build_dir"' EXIT
+          cp -R scripts brand.config.json package.json raw.svg "$build_dir/"
+          ln -s "$GITHUB_WORKSPACE/node_modules" "$build_dir/node_modules"
+          npm --prefix "$build_dir" run build
+          npm --prefix "$build_dir" run verify

@@ -1,0 +1,17 @@
+{
+  "name": "raw-brand-assets",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RAW Technologies LLC brand resources with reproducible exports and automated validation",
+  "repository": { "type": "git", "url": "git+https://github.com/lucasmkrx/raw.git" },
+  "homepage": "https://github.com/lucasmkrx/raw#readme",
+  "bugs": { "url": "https://github.com/lucasmkrx/raw/issues" },
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": { "node": ">=22.0.0" },
+  "scripts": {
+    "build": "node scripts/build.cjs",
+    "verify": "node scripts/verify.cjs",
+    "release:bundle": "python3 scripts/package-release.py"
+  },
+  "devDependencies": { "sharp": "0.35.4" }
+}

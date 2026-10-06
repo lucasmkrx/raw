@@ -1,0 +1,10 @@
+* text=auto
+*.svg text eol=lf
+*.json text eol=lf
+*.webmanifest text eol=lf
+*.md text eol=lf
+*.cjs text eol=lf
+*.html text eol=lf
+*.yml text eol=lf
+*.png binary
+*.ico binary

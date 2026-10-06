@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "source": "raw.svg",
+  "sourceSha256": "a660f26bc2d9c0870898c08fc0952d3ba042070598e3087651e0d26c47355115",
+  "configSha256": "ee975a7bfa1f6e004ac34644082b64b0f374b2f6bb10fc633daf46a162d47826",
+  "generatorSha256": "6c204788aeb4a7086c6bec6cbcb7a4e976633108df1d63a1e062b806b48f7054",
+  "renderer": {
+    "sharp": "0.35.4",
+    "vips": "8.18.6"
+  },
+  "rightsHolder": "RAW Technologies LLC",
+  "license": "Brand assets: LICENSE; tooling and prose: LICENSE-CODE",
+  "assets": [
+    {
+      "path": "assets/favicon/apple-touch-icon.png",
+      "category": "favicon",
+      "background": "#000000",
+      "format": "png",
+      "width": 180,
+      "height": 180,
+      "bytes": 6031,
+      "sha256": "aff88ecb468cdc86327ba8593e4d42c765b0bbdfe12d9fc57f106297456a7f4e"
+    },
+    {
+      "path": "assets/favicon/favicon.ico",
+      "category": "favicon",
+      "format": "ico",
+      "sizes": [
+        16,
+        32,
+        48
+      ],
+      "background": "#000000",
+      "bytes": 15086,
+      "sha256": "a53029c5b221eadfb8e3cd4a070dc06f4fdd7026787a55f2bf61daeb03e965e8"
+    },
+    {
+      "path": "assets/favicon/favicon.svg",
+      "category": "favicon",
+      "format": "svg",
+      "background": "#000000",
+      "viewBox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "bytes": 4578,
+      "sha256": "8977b9e6ad10c224d0b78757008e0dc53ad4c93a298aa6268750ed3041d32bef"
+    },
+    {
+      "path": "assets/favicon/icon-192.png",
+      "category": "favicon",
+      "purpose": "any maskable",
+      "background": "#000000",
+      "format": "png",
+      "width": 192,
+      "height": 192,
+      "bytes": 6385,
+      "sha256": "42b202718a0743e6f377491324e8fa2dd863100b950e09971628d1cf983ec499"
+    },
+    {
+      "path": "assets/favicon/icon-512.png",
+      "category": "favicon",
+      "purpose": "any maskable",
+      "background": "#000000",
+      "format": "png",
+      "width": 512,
+      "height": 512,
+      "bytes": 19791,
+      "sha256": "9f31230aed3a1ad1c43cbf0e5899fedcb53983be5663ad5f975a2aca750da15e"
+    },
+    {
+      "path": "assets/favicon/site.webmanifest",
+      "category": "website-config",
+      "format": "json",
+      "bytes": 388,
+      "sha256": "533570b103a77cf911443e188ff39ec442227b456ce7bfcc18f1c8ab6512ed81"
+    },
+    {
+      "path": "assets/logos/png/raw-logo-black-2048w.png",
+      "category": "logo",
+      "variant": "black",
+      "background": "transparent",
+      "format": "png",
+      "width": 2048,
+      "height": 659,
+      "bytes": 73293,
+      "sha256": "b014dd09d12aafdec799f1c69d22e68021b859850a582a2e996fefdf72d2d92c"
+    },
+    {
+      "path": "assets/logos/png/raw-logo-color-2048w.png",
+      "category": "logo",
+      "variant": "color",
+      "background": "transparent",
+      "format": "png",
+      "width": 2048,
+      "height": 659,
+      "bytes": 101433,
+      "sha256": "3415afda0343cab4e3561e1342e05421de170af4467159703aa96d49d51970e9"
+    },
+    {
+      "path": "assets/logos/png/raw-logo-white-2048w.png",
+      "category": "logo",
+      "variant": "white",
+      "background": "transparent",
+      "format": "png",
+      "width": 2048,
+      "height": 659,
+      "bytes": 75433,
+      "sha256": "b554722983c50017906afc7def47e808d7e7181ed9f1c05acbeca28ff7f8f21a"
+    },
+    {
+      "path": "assets/logos/svg/raw-logo-black.svg",
+      "category": "logo",
+      "variant": "black",
+      "format": "svg",
+      "background": "transparent",
+      "viewBox": [
+        0,
+        0,
+        372.739,
+        120
+      ],
+      "bytes": 4453,
+      "sha256": "7a7e43dff13cedc09a8f9ba1ee00d6328dd5bd9434a462e4cb187d40d4fb3b8f"
+    },
+    {
+      "path": "assets/logos/svg/raw-logo-color.svg",
+      "category": "logo",
+      "variant": "color",
+      "format": "svg",
+      "background": "transparent",
+      "viewBox": [
+        0,
+        0,
+        372.739,
+        120
+      ],
+      "bytes": 4453,
+      "sha256": "334cad864b59ac36e014f64ce06fee3ead80a15edcdcbbca4d935bfd4c0a19b3"
+    },
+    {
+      "path": "assets/logos/svg/raw-logo-white.svg",
+      "category": "logo",
+      "variant": "white",
+      "format": "svg",
+      "background": "transparent",
+      "viewBox": [
+        0,
+        0,
+        372.739,
+        120
+      ],
+      "bytes": 4453,
+      "sha256": "c0d0a417573dbce9ea2bb19948ea708b316c9b65a426b30a6e41eb613f05517e"
+    },
+    {
+      "path": "assets/social/raw-avatar-1024.png",
+      "category": "avatar",
+      "variant": "color",
+      "background": "#000000",
+      "format": "png",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 44421,
+      "sha256": "1d82d5f1e68a7eedcdfbacb75c60c9fae90189291784714cc798b437415b869d"
+    },
+    {
+      "path": "docs/previews/brand-overview.png",
+      "category": "preview",
+      "format": "png",
+      "width": 1440,
+      "height": 640,
+      "bytes": 105359,
+      "sha256": "d6761655b14cf6a3280d83f0070f2bf4f3ccf571325beb78ec399202699c2e6b"
+    }
+  ]
+}
